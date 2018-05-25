@@ -20,10 +20,11 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 
     ext {
-        androidSupportVersion = "25.3.0"
+        androidSupportVersion = "25.4.0"
 
     }
 }
